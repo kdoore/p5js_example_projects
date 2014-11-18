@@ -1,0 +1,82 @@
+/*
+    Document   : css/style．css
+    Created on : 2014-11-04 12:53 AM
+    Author     : kdoore
+    
+*/
+
+body{
+    padding: 0;
+   <!-- css comment syntax  -->
+    margin: 0;
+    background-color: rgb(51, 49, 49);
+}
+
+p{
+    color: rgb(81, 81, 88);
+ }
+
+a{
+    color: rgb(81, 81, 88);
+}
+span{
+    font-size: 12px;
+}
+
+
+.container{
+    padding: 30px;
+    margin: 30px auto;
+    width: 400px;
+    background-color: rgb(33, 180, 188);
+}
+#canvasContainer{
+    padding: 30px;
+    margin: 30px auto;
+    width: 400px;
+    background-color: rgb(43, 172, 184);
+
+}
+
+#myContainer{
+    padding: 30px;
+    margin: 30px auto;
+    width: 400px;
+    background-color: rgb(51, 206, 8);
+    
+}
+#textContainer{
+    padding: 30px;
+    margin: 30px auto;
+    width: 400px;
+    background-color: rgb(249, 177, 5);
+    
+}
+
+.btn {
+  background: #34bdd9;
+  background-image: -webkit-linear-gradient(top, #34bdd9, #2b71b8);
+  background-image: -moz-linear-gradient(top, #34bdd9, #2b71b8);
+  background-image: -ms-linear-gradient(top, #34bdd9, #2b71b8);
+  background-image: -o-linear-gradient(top, #34bdd9, #2b71b8);
+  background-image: linear-gradient(to bottom, #34bdd9, #2b71b8);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 15px;
+  padding: 8px 16px 6px 16px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
